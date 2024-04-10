@@ -1,6 +1,8 @@
 version: '3'
 services:
-  python:
-    image: python:3.7
+  simpleapp:
+    image: na0zumi/earlsApp
     container_name: earls-simplepyapp
-    entrypoint: python3 app.py
+    build: ./
+    ports:
+      - 5000:5000
