@@ -16,4 +16,4 @@ RUN python3 -m pip install -r requirements.txt
 EXPOSE 5000
 
 # create entry point
-ENTRYPOINT ["python3.py","app.py"]
+ENTRYPOINT ["python3","app.py"]
